@@ -1,0 +1,966 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/alvarfr/ontologies/2017/11/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/alvarfr/ontologies/2017/11/untitled-ontology-6">
+    <Prefix name="" IRI="http://www.semanticweb.org/alvarfr/ontologies/2017/11/untitled-ontology-6"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <DataProperty IRI="#Id"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Changes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#WorkOrderId"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pro1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Input_for"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClosedWorkOrders"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WO1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ScheduledTasks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClosedIncidents"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ProjectId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#WorkOrderState"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#IncidentResolutionDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ProjectOwnerName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Projects"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#WorkOrderResolutionDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EstimatedDeliveryDate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Support_By"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ProjectStartDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DeveloperName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ChangeId"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Analyst1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SendDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#UserPhoneNumber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Change1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ChangeSummary"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#UserSurName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#IncidentCreationDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#WorkOrderSummary"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#UserName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NotScheduledTasks"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ApplicationName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Modified_By"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Applications"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Generate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#State"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Inc1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ProjectRemmainingTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ChangeType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#App1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#UserArea"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#UserId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Task1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#UserCharge"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Contain_By"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Modify"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#UserEMail"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Requeriment_Over"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DeveloperSurName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ProjectFinishDate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManagedChanges"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClosedChanges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ProjectType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#IncidentPriority"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DeveloperPhoneNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WorkOrders"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#WorkOrderPriority"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#App2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Generate_In"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Support"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#User1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DeveloperEMail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Analyst"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ProjectName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#IncidentId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DeveloperId"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Incidents"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Contain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tasks"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#IncidentSummary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Users"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChangesState"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#IncidentState"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ProjectState"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#WorkOrderCreationDate"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Analyst"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Changes"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChangesState"/>
+        <Class IRI="#Changes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClosedChanges"/>
+        <Class IRI="#Changes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClosedIncidents"/>
+        <Class IRI="#Incidents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClosedWorkOrders"/>
+        <Class IRI="#WorkOrders"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Incidents"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManagedChanges"/>
+        <Class IRI="#Changes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NotScheduledTasks"/>
+        <Class IRI="#Tasks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Projects"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ScheduledTasks"/>
+        <Class IRI="#Tasks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tasks"/>
+        <Class IRI="#Projects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Users"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WorkOrders"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Generate"/>
+        <NamedIndividual IRI="#Analyst1"/>
+        <NamedIndividual IRI="#Inc1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Modified_By"/>
+        <NamedIndividual IRI="#Analyst1"/>
+        <NamedIndividual IRI="#App2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Modify"/>
+        <NamedIndividual IRI="#Analyst1"/>
+        <NamedIndividual IRI="#App1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Support"/>
+        <NamedIndividual IRI="#Analyst1"/>
+        <NamedIndividual IRI="#App1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Support_By"/>
+        <NamedIndividual IRI="#Analyst1"/>
+        <NamedIndividual IRI="#App2"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DeveloperEMail"/>
+        <NamedIndividual IRI="#Analyst1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">fredd.alva@gmail.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DeveloperId"/>
+        <NamedIndividual IRI="#Analyst1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">80811446</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DeveloperName"/>
+        <NamedIndividual IRI="#Analyst1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Freddy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DeveloperPhoneNumber"/>
+        <NamedIndividual IRI="#Analyst1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3013702435</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DeveloperSurName"/>
+        <NamedIndividual IRI="#Analyst1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Alvarado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ApplicationName"/>
+        <NamedIndividual IRI="#App1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Genesis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#App1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Aplicacion notas estudiantes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id"/>
+        <NamedIndividual IRI="#App1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">220442</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#State"/>
+        <NamedIndividual IRI="#App1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ApplicationName"/>
+        <NamedIndividual IRI="#App2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Biblioteca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#App2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Aplicacion de la biblioteca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id"/>
+        <NamedIndividual IRI="#App2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">445454</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#State"/>
+        <NamedIndividual IRI="#App2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ChangeId"/>
+        <NamedIndividual IRI="#Change1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ChangeSummary"/>
+        <NamedIndividual IRI="#Change1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Cambio tipo dato NRC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ChangeType"/>
+        <NamedIndividual IRI="#Change1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Normal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EstimatedDeliveryDate"/>
+        <NamedIndividual IRI="#Change1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IncidentCreationDate"/>
+        <NamedIndividual IRI="#Inc1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2017/12/01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IncidentId"/>
+        <NamedIndividual IRI="#Inc1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IncidentPriority"/>
+        <NamedIndividual IRI="#Inc1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Alta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IncidentResolutionDate"/>
+        <NamedIndividual IRI="#Inc1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2017/12/15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IncidentState"/>
+        <NamedIndividual IRI="#Inc1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Asignada</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IncidentSummary"/>
+        <NamedIndividual IRI="#Inc1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Error al registrar las notas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ProjectId"/>
+        <NamedIndividual IRI="#Pro1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ProjectName"/>
+        <NamedIndividual IRI="#Pro1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Modernizacion plataforma</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ProjectOwnerName"/>
+        <NamedIndividual IRI="#Pro1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Carlos Sierra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ProjectRemmainingTime"/>
+        <NamedIndividual IRI="#Pro1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ProjectType"/>
+        <NamedIndividual IRI="#Pro1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Plan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#UserArea"/>
+        <NamedIndividual IRI="#User1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sistemas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#UserCharge"/>
+        <NamedIndividual IRI="#User1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Analista</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#UserEMail"/>
+        <NamedIndividual IRI="#User1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">fredd.alva@gmail.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#UserId"/>
+        <NamedIndividual IRI="#User1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">80811446</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#UserName"/>
+        <NamedIndividual IRI="#User1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Freddy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#UserPhoneNumber"/>
+        <NamedIndividual IRI="#User1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3013702435</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#UserSurName"/>
+        <NamedIndividual IRI="#User1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Alvarado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#WorkOrderId"/>
+        <NamedIndividual IRI="#WO1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#WorkOrderPriority"/>
+        <NamedIndividual IRI="#WO1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Media</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#WorkOrderResolutionDate"/>
+        <NamedIndividual IRI="#WO1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2017/12/14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#WorkOrderState"/>
+        <NamedIndividual IRI="#WO1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">En curso</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#WorkOrderSummary"/>
+        <NamedIndividual IRI="#WO1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Solicitud crear usuario nuevo</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Contain"/>
+        <ObjectProperty IRI="#Contain_By"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Input_for"/>
+        <ObjectProperty IRI="#Requeriment_Over"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Modified_By"/>
+        <ObjectProperty IRI="#Modify"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Support"/>
+        <ObjectProperty IRI="#Support_By"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Contain"/>
+        <Class IRI="#Projects"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Contain_By"/>
+        <Class IRI="#Tasks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Generate"/>
+        <Class IRI="#Applications"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Generate"/>
+        <Class IRI="#Projects"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Generate_In"/>
+        <Class IRI="#Incidents"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Input_for"/>
+        <Class IRI="#Applications"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Modified_By"/>
+        <Class IRI="#Applications"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Modify"/>
+        <Class IRI="#Changes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Requeriment_Over"/>
+        <Class IRI="#WorkOrders"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Support"/>
+        <Class IRI="#Analyst"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Support"/>
+        <Class IRI="#Applications"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Support_By"/>
+        <Class IRI="#Applications"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Contain"/>
+        <Class IRI="#Tasks"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Contain_By"/>
+        <Class IRI="#Projects"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Generate"/>
+        <Class IRI="#Applications"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Generate"/>
+        <Class IRI="#Incidents"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Generate_In"/>
+        <Class IRI="#Applications"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Input_for"/>
+        <Class IRI="#WorkOrders"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Modified_By"/>
+        <Class IRI="#Changes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Modify"/>
+        <Class IRI="#Applications"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Requeriment_Over"/>
+        <Class IRI="#Applications"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Support"/>
+        <Class IRI="#Applications"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Support"/>
+        <Class IRI="#Projects"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Support_By"/>
+        <Class IRI="#Analyst"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ApplicationName"/>
+        <Class IRI="#Applications"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ChangeId"/>
+        <Class IRI="#Changes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ChangeSummary"/>
+        <Class IRI="#Changes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ChangeType"/>
+        <Class IRI="#Changes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#Applications"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DeveloperEMail"/>
+        <Class IRI="#Analyst"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DeveloperId"/>
+        <Class IRI="#Analyst"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DeveloperName"/>
+        <Class IRI="#Analyst"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DeveloperPhoneNumber"/>
+        <Class IRI="#Analyst"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DeveloperSurName"/>
+        <Class IRI="#Analyst"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#EstimatedDeliveryDate"/>
+        <Class IRI="#Changes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Id"/>
+        <Class IRI="#Applications"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#IncidentCreationDate"/>
+        <Class IRI="#Incidents"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#IncidentId"/>
+        <Class IRI="#Incidents"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#IncidentPriority"/>
+        <Class IRI="#Incidents"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#IncidentResolutionDate"/>
+        <Class IRI="#Incidents"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#IncidentState"/>
+        <Class IRI="#Incidents"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#IncidentSummary"/>
+        <Class IRI="#Incidents"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ProjectFinishDate"/>
+        <Class IRI="#Projects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ProjectId"/>
+        <Class IRI="#Projects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ProjectName"/>
+        <Class IRI="#Projects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ProjectOwnerName"/>
+        <Class IRI="#Projects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ProjectRemmainingTime"/>
+        <Class IRI="#Projects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ProjectStartDate"/>
+        <Class IRI="#Projects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ProjectState"/>
+        <Class IRI="#Projects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ProjectType"/>
+        <Class IRI="#Projects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SendDate"/>
+        <Class IRI="#Changes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#State"/>
+        <Class IRI="#Applications"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#UserArea"/>
+        <Class IRI="#Users"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#UserCharge"/>
+        <Class IRI="#Users"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#UserEMail"/>
+        <Class IRI="#Users"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#UserId"/>
+        <Class IRI="#Users"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#UserName"/>
+        <Class IRI="#Users"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#UserPhoneNumber"/>
+        <Class IRI="#Users"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#UserSurName"/>
+        <Class IRI="#Users"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#WorkOrderCreationDate"/>
+        <Class IRI="#WorkOrders"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#WorkOrderId"/>
+        <Class IRI="#WorkOrders"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#WorkOrderPriority"/>
+        <Class IRI="#WorkOrders"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#WorkOrderResolutionDate"/>
+        <Class IRI="#WorkOrders"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#WorkOrderState"/>
+        <Class IRI="#WorkOrders"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#WorkOrderSummary"/>
+        <Class IRI="#WorkOrders"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ApplicationName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ChangeId"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ChangeSummary"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ChangeType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#DeveloperEMail"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#DeveloperId"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#DeveloperName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#DeveloperPhoneNumber"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#DeveloperSurName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#EstimatedDeliveryDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Id"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#IncidentCreationDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#IncidentId"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#IncidentPriority"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#IncidentResolutionDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#IncidentState"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#IncidentSummary"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ProjectFinishDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ProjectId"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ProjectName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ProjectOwnerName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ProjectRemmainingTime"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ProjectStartDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ProjectState"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ProjectType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#SendDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#State"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#UserArea"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#UserCharge"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#UserEMail"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#UserId"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#UserName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#UserPhoneNumber"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#UserSurName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#WorkOrderCreationDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#WorkOrderId"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#WorkOrderPriority"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#WorkOrderResolutionDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#WorkOrderState"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#WorkOrderSummary"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
